@@ -1,8 +1,7 @@
 ## <h3> Olá!  Eu sou Malagy Cassimo </h3> 
 
 
-- 🔭 Estudante da UEM
-- 🌱 Sistemas de Informação
+- 🔭 Estudante da UEM      - 🌱 Sistemas de Informação
 
 <div align="center">
   <a href="https://github.com/malagycassimo">
