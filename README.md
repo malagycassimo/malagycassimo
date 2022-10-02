@@ -11,27 +11,8 @@
   <img  align = "left" height="180em"  width ="47%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=malagycassimo&layout=compact&langs_count=7&theme=dark"/>
 </div><br/>
 
-const fetcher = (variables, token) => {
-  return request(
-    {
-      query: `
-      query userInfo($login: String!) {
-        user(login: $login) {
-          repositories(isFork: false, first: 100) {
-            nodes {
-              languages(first: 1) {
-                edges {
-                  size
-                  node {
-                    color
-                    name
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
+	
+	
 ##	
 	
 <div align = "center"><br>
