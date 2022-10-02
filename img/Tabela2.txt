@@ -1,0 +1,4 @@
+<tr>
+	<td id="foot" colspan="11" style="font-size: 10px; font-family: arial; color: #8F8F8F; padding: 15px 17px;" ><li><div id="div1"></div>&nbsp &nbsp &nbsp &nbsp TACA LIBERTADORES <div id="div2"></div> &nbsp &nbsp &nbsp &nbsp   PRE-LIBERTADORES <div id="div3"></div>&nbsp &nbsp &nbsp &nbsp  Sul-AMERICANA  <div id="div4"></div> &nbsp &nbsp &nbsp &nbsp    REBAIXADOS</li>
+</td>
+</tr>

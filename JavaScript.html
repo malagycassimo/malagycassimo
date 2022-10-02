@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html >
+
+<head lang="pt-br">
+
+	<title>JavaScript.com</title>
+    <meta charset="utf-8">
+
+<script>
+
+	
+
+function foto1(tipo){
+
+	if (tipo == 1) {
+		arquivo = "img/desligada.jpg";
+        }
+    if(tipo == 2){
+	   arquivo = "img/lampada_acesa.jfif";
+        }   
+    if(tipo == 3){ 
+    	arquivo = "img/quebrada.jfif";
+        }
+        document.getElementById("ft1").src = arquivo;
+}
+
+
+
+</script>
+
+</head>
+
+
+<body>
+
+
+<h1>Testando JavaScript</h1>
+
+
+<br>
+<br>
+<br>
+
+<img src="img/desligada.jpg" width="20%" height="20%" id="ft1" onmousemove= "foto1(1)" onclick ="foto1(2)" onscroll="foto1(3)" />
+
+
+
+</body>
+
+
+</html>

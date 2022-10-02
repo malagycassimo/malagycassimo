@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+
+<html>
+
+
+<head>
+
+
+	<title>Formulario.com.mz</title>
+
+<style rel = "stylesheet">
+	
+
+
+fieldset { background-color: #dc5328 }
+
+legend {font-size: 20px; font-family: "Bookman Old Style" ;}
+
+form { background-color: #dc5b28 }
+
+h4 {font-family: "Bookman Old Style";}
+
+h3{ font-family: "Bookman Old Style"; color: white; padding-left: 770px; }
+
+p{  font-family: "Bookman Old Style"; color: white; }
+
+p#pradio{ color: white; }
+
+btn-enviar { font-size: 14px; }
+
+body{ margin: 0; padding: 0; background-color: white }
+
+legend{ color: white; font-size: 19px}
+
+
+img#img{ margin-top: -120px; margin-left: 30px; }
+
+div#inscricoes{
+
+position: relative;
+margin-top: 30px;
+margin-right: 40px;
+margin-left: 500px;
+width: 700px;
+height: 80px;
+background-color: #dc5b28; 
+padding-top: 10px;
+padding-left: 35px;
+color: white;
+font-size: 19px;
+font-family: "Bookman Old Style";
+
+
+}
+
+
+div#inscricoes1{
+
+	position: relative;
+	margin-top: -78px;
+    margin-right: 40px;
+    margin-left: 535px;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    font-family: "Bookman Old Style";
+}
+div#inscricoes2{
+
+	position: relative;
+	margin-top: -90px;
+    margin-right: 40px;
+    margin-left: 755px;
+    font-size: 55px;
+    color: white;
+    font-weight: bold;
+    font-family: "Bookman Old Style";
+}
+
+div#saibaM p {
+
+position: relative;
+margin-top: -60px;
+margin-right: 40px;
+margin-left: 990px;
+width: 160px;
+height: 36px;
+background-color: white; 
+padding-top: 11px;
+padding-left: 35px;
+font-size: 25px;
+color: #dc5b28;
+font-family: "Bookman Old Style";
+font-weight: bold;
+text-align: left;
+
+}
+
+
+form{
+
+
+}
+
+  fraimwork
+  //bootstrap
+  //css3
+  //saas
+
+
+
+
+</style>
+
+<script type="text/javascript">
+
+var alterar = document.querySelector(".DP");
+
+alterar.textContent = "new text";
+
+
+function msg(tipo) {
+	if (tipo == 1) {
+		mensagem = alert("Registado com sucesso!!"); }
+	 document.getElementById('btn').src = mensagem;
+	}	
+
+function msg1(tipo) {
+		if (tipo == 2) {
+			mensagem1 = alert("Bem vindo!!");}
+		document.getElementById('B').src = mensagem1;
+	}	
+
+</script>
+
+</head>
+
+
+<body id="B";  onload="msg1(2)"; >
+
+
+		<!-- titulo ===================================================================================================-->
+<div id="inscricoes"><p>INSCRICOES ABERTAS</p></div>
+<div id="inscricoes1"> <p>ANO LECTIVO</p></div>
+<div id="inscricoes2">2020</div>
+<div id="saibaM"><p>Saiba Mais</p></div>
+
+
+	<!-- img ===================================================================================================-->
+
+
+<img src="img/Instituto-Superior-de-Comunicacao.jpg" id="img">
+	
+
+
+	<!-- Dados pessoais ===================================================================================================-->
+	
+
+<form>
+
+<h3 class="DP"><STRONG> Dados Pessoais </STRONG></h3>
+<p  style="padding-left: 520px;">
+<p style="padding-left: 510px;">Apelido: <input type="text" name="tnome" size="20">  &nbsp &nbsp &nbsp Nome: <input type="text" name="tnome" size="50" placeholder="Nome Completo"></p>
+<p style="padding-left: 510px;"></p>
+<p style="padding-left: 510px;"> Data de Nascimento: <input type="date" name="tNasc" id="cNasc" >&nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  BI/Passaporte:  <input type="text" name="tnome" size="20"></p>
+<p style="padding-left: 510px;"> 
+</p>
+<p style="padding-left: 510px;" >Contacto:  <input type="text" name="tcontacto" maxlength="9" placeholder="+258 84 XXXXXXX">&nbsp	&nbsp		&nbsp	&nbsp &nbsp	&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp    Email: <input type="text" name="temail" placeholder="seunome@gmail.com" size="32"></p>
+<p style="padding-left: 510px;"></p>
+
+
+<p id="pradio" style="padding-left: 510px;"> Estado Civil: <input type="radio" name="tesdado" id="csolteiro"><label for="csolteiro"> Solteiro </label> <input type="radio" name="tesdado" id="ccasado"><label for="ccasado">Casado</label> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp Sexo:    <label for="cmasc" > Masculino  </label><input type="radio" name="tsexo" id="cmasc"> 
+ <label for="cfem"> Feminino </label><input type="radio" name="tsexo" id="cfem"> </p> 
+
+<p style="padding-left: 510px;">Mae: &nbsp  <input type="text" name="" size="40" placeholder="Nome Completo">  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Telefone: <input type="text" name="tmae" maxlength="9" placeholder="+258 84 XXXXXXX"  size="20"></p>
+<p style="padding-left: 510px;"></p>
+
+<p style="padding-left: 510px;">pai: &nbsp <input type="text" name="" size="40" placeholder="Nome Completo"> &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp  Telefone: <input type="text" name="tpai" maxlength="9" placeholder="+258 84 XXXXXXX" size="21.6"></p>
+<p style="padding-left: 510px;">Alguma Doenca: <input type="checkbox" name="sim" value="Sim" id="sim" ><label for="sim"> Sim</label> <input type="checkbox" name="sim" value="Nao" id="nao"><label for="nao"> Nao</label> 
+ </p><br>
+
+</form>
+
+
+	<!-- Dados de endereco ===================================================================================================-->
+
+
+<form>
+
+<h3><STRONG>Dados de Endereco</STRONG></h3>
+
+<p style="padding-left: 510px;">Cidade: <input type="text" name="tcidade" size="30">  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  Distrito: <input type="text" name="tdistrito" size="35" > </p>
+
+<p style="padding-left: 510px;">Bairro:<input type="text" name="tbairro" size="40" placeholder="Bairro onde vive"> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  Casa: <input type="text" name="tnrC" size="19" maxlength="10000" placeholder="nr da casa"> </p>
+
+<p style="padding-left: 510px;">Av: <input type="text" name="tav" size="35" placeholder="Av / rua" > &nbsp &nbsp &nbsp &nbsp &nbsp   &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Q: <input type="text" name="tq" size="28" maxlength="16" placeholder="Nr.Quarteirao"></p><br>
+
+
+</form>
+
+
+	<!-- Dados do estudante ===================================================================================================-->
+
+
+<form>
+
+	
+	<h3><STRONG>Dados do estudante</STRONG></h3>
+<p style="padding-left: 510px;">Usuario:  <input type="text" name="tusuario" size="25" placeholder="ISCIM.ALxxxxx" maxlength="14">  &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp  Senha: <input type="Senha" name="tsenha" size="25" maxlength="12" placeholder="************************"><p>
+
+<p style="padding-left: 510px;">Codigo de Estudante: <input type="text" name="tcodigo" maxlength="8" placeholder="xxxxxxxx">
+	&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Curso: <select name="select" size="1">
+	<option value="Informatica de sistemas"> Informativa de sistemas</option>
+	<option value="Informatica de Gestao"> Informativa de Gestao</option>
+    <option value="Mutimedia"> Multimedia</option>
+	<option value="Direito"> Direito</option>
+	<option value="Marketing"> Marketing</option>
+</select></p>
+
+<p id="pradio" style="padding-left: 510px;">Ano: &nbsp  <select name="select" size="1">
+	<option value="Informatica de sistemas"> Primeiro</option>
+	<option value="Informatica de Gestao"> Segungo</option>
+    <option value="Mutimedia"> Terceiro</option>
+	<option value="Direito"> Quarto</option>
+</select> &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp  &nbsp &nbsp  
+Turno: &nbsp <select name="select" size="1">
+	<option value="Informatica de sistemas"> Laboal</option>
+	<option value="Informatica de Gestao"> Vesperino</option>
+    <option value="Mutimedia"> Pos-Laboral</option>
+</select>
+	
+</p style="padding-left: 510px;"> 
+
+<p id="pradio" style="padding-left: 260px;"></p>	
+
+
+
+
+<br>
+<br>
+	<!-- btn registar ===================================================================================================-->
+
+
+</form>
+<br>
+<center><button id="btn" style=" background-color: #dc5328; color: aliceblue; width: 300px; height: 30px; size: 20px;">Registar Estudante</button></center><br>
+
+
+
+</body>
+
+
+</html>

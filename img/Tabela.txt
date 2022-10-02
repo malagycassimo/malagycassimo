@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title></title>
+
+	<style>
+	
+body{
+	margin: 0;
+	padding: 0;
+}
+table {
+	margin-top: 20px;
+	margin-left: 25%;
+	position: relative;
+	border: 1px solid #000;
+	border-color: blue;
+}
+
+th#titulo {
+	background-color: #0D5188;
+	color: white;
+	border: 0px solid #000;
+}
+th.Linha1 {
+	border: 0px solid #000;
+	background-color: #66C5E3;
+}
+th.Linha11 {
+	border: 0px solid #000;
+	background-color: #66C5E3;
+	width: 150px;
+	text-align: left;
+}
+td.Linha2 {
+	color: #0D5188;
+	background-color: #C7E7F3;
+
+}
+
+td.sub12 {
+	border: 0px solid #000;
+	background-color: #C7E7F3;
+	text-align: center;
+}
+td.Linha22 {
+	border: 1px;
+	background-color: #F5DEB3;
+	text-align: center;
+}
+
+td.Linha3 {
+	border: 0px;
+	background-color: #C7E7F3;
+	text-align: center;
+}
+
+td.sub2 {
+	border: 0px solid #000;
+	background-color: #C7E7F3;
+}
+th,td {padding: 7px}
+
+
+	</style>
+</head>
+<body>
+
+
+<table>
+	<caption></caption>
+	
+	<tr>
+		<th id="titulo" colspan="6">Cidades mais populares da Bahia<br> (estimativa de 2009 do instituto Brasileiro de Geografia e Estatistica)</th>
+	</tr>
+		<tr class="sub">
+		<th class="Linha1">Posicao</th>
+		<th class="Linha11">Cidade</th>
+		<th class="Linha1">Pop.</th>
+		<th class="Linha1">Posicao</th>
+		<th class="Linha11">Cidade</th>
+		<th class="Linha1">Pop.</th>
+	</tr>
+		<tr>
+		<td class="Linha22">1</td>
+		<td class="Linha2">Salvador</td>
+		<td class="Linha3">2 998 056</td>
+		<td class="Linha22">3</td>
+		<td class="Linha2">Vitoria da Conquista</td>
+		<td class="Linha3">318 901</td>
+		</tr>
+		<tr>
+			<td class="Linha22">2</td>
+			<td class="Linha2">Feira de Santana</td>
+			<td class="Linha3">591 707</td>
+			<td class="Linha22">4</td>
+			<td class="Linha2">Juazeiro</td>
+			<td class="Linha3">243 086</td>
+		</tr>
+
+
+
+</table>
+
+
+</body>
+</html>

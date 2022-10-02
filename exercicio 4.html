@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Exercicio 4</title>
+
+	<meta charset="utf-8">
+
+	<style>
+		
+		table, td,th {
+
+			border: 1px solid #f7f7f7;
+			border-spacing: 0px;
+			
+		}
+		td {
+			padding: 10px
+		}
+		th {
+           padding: 10px
+
+		}
+		th#Times{
+			width: 180px;
+			color: #666666;
+			font-size: 14px;
+			font-family: arial;
+			text-align: left;
+			border-left-style: hidden;
+			border-bottom-style: hidden;
+			border-left-color: #fff;
+		}
+		th#TimesS{
+			font-size: 14px;
+			color: #666666;
+			border-bottom-color: #cccccc;
+			font-family: arial;
+			text-align: left;
+			border-left-style: hidden;
+		
+			
+		}
+		th#TimeA{
+			font-weight: bold;
+			border-bottom-style: hidden;
+			font-family: arial;
+			text-align: left;
+			border-left-style: hidden;
+			color: #003366;
+			border-right-style: hidden;
+			font-size: 18px;
+			font
+		}
+		th#TimeAZ{
+			font-weight: bold;
+			border-bottom-style: hidden;
+			font-weight: bold;
+			font-family: arial;
+			text-align: left;
+			border-left-style: hidden;
+			color: #1398BE	;
+			border-right-style: hidden;
+			font-size: 18px;
+			
+		}
+		th#TimeAZZ{
+
+            margin-top: 0px;
+			font-weight: bold;
+			border-bottom-color: #cccccc;
+			font-family: arial;
+			text-align: left;
+			border-left-style: hidden;
+			color: #1398BE	;
+			border-right-style: hidden;
+			font-size: 18px;
+		}
+		th#TimeL{
+			font-weight: bold;
+			border-bottom-style: hidden;
+			font-family: arial;
+			text-align: left;
+			border-left-style: hidden;
+			color: #DE9800;
+			border-right-style: hidden;
+			font-size: 18px;
+		}
+		th#TimeC{
+			font-weight: bold;
+			border-bottom-style: hidden;
+			font-family: arial;
+			text-align: left;
+			border-left-style: hidden;
+			color: #CCCCCC;
+			border-right-style: hidden;
+			font-size: 18px;
+		}
+		th#TimeCC{
+
+			font-weight: bold;
+			border-bottom-color: #cccccc;
+			font-family: arial;
+			text-align: left;
+			border-left-style: hidden;
+			color: #CCCCCC;
+			border-right-style: hidden;
+			font-size: 18px;
+		}
+		th#TimeV{
+			font-weight: bold;
+			border-bottom-style: hidden;
+			font-family: arial;
+			text-align: left;
+			border-left-style: hidden;
+			color: #C91B04;
+			border-right-style: hidden;
+			font-size: 18px;
+		}
+		th#Time{
+			font-family: arial;
+			border-right-style: hidden;
+			
+			border-right-color: #fff;
+		}
+
+		td#Times{
+			font-weight: bold;
+			font-size: 13px;
+			color: #999999;
+			border-bottom-style: hidden;
+			font-family: arial;
+			text-align: center;
+			border-left-style: hidden;
+			border-right-style: hidden;
+			border-bottom-style:
+			border-left-color: #fff;
+		}
+		td#Time{
+			font-weight: bold;
+			font-size: 13px;
+			color: #999999;
+			border-bottom-style: hidden;
+			font-family: arial;
+			text-align: center;
+			border-left-style: hidden;
+			border-right-style: hidden;
+		
+			border-right-color: #fff;
+		}
+		td#P{
+			width: 20px;
+			font-size: 14px;
+			font-weight: bold;
+			font-family: arial;
+			text-align: center;
+			border-left-style: hidden;
+			border-right-style: hidden;
+		
+			color: black;
+			background-color: #f7f7f7;
+		}
+		td#PP{
+				width: 20px;
+			font-size: 14px;
+			font-weight: bold;
+			font-family: arial;
+			text-align: center;
+			border-left-style: hidden;
+			border-right-style: hidden;
+			border-bottom-color: #cccccc;
+			color: black;
+			background-color: #f7f7f7;
+		}
+		td#V{
+				width: 20px;
+			color: #666666;
+			font-size: 14px;
+			font-family: arial;
+			text-align: center;
+			border-left-style: hidden;
+			border-right-style: hidden;
+			border-bottom-style: hidden;
+			background-color: #f7f7f7;
+		}
+		td#VV{
+				width: 20px;
+			color: #666666;
+			font-size: 14px;
+			font-family: arial;
+			text-align: center;
+			border-left-style: hidden;
+			border-right-style: hidden;
+			border-bottom-color: #cccccc;
+			background-color: #f7f7f7;
+		}
+
+		td#J{
+				width: 20px;
+			color: #666666;
+			font-size: 14px;
+			border-bottom-style: hidden;
+		}
+		td#JJ{
+			color: #666666;
+			font-size: 14px;
+			border-bottom-color: #cccccc;
+		}
+		div#div1{
+			position: absolute;
+			margin-top: -10px;
+			margin-left: 5px;
+			height: 10px;
+			width: 10px;
+			background-color:#003366 ;
+		}
+		div#div2{
+			position: absolute;
+			margin-top: -10px;
+			margin-left: 140px;
+			height: 10px;
+			width: 10px;
+			background-color:#1398BE ;
+		}
+		div#div3{
+			position: absolute;
+			margin-top: -10px;
+			margin-left: 270px;
+			height: 10px;
+			width: 10px;
+			background-color:#DE9800 ;
+		}
+		div#div4{
+			position: absolute;
+			margin-top: -10px;
+			margin-left: 378px;
+			height: 10px;
+			width: 10px;
+			background-color:#C91B04 ;
+		}
+		td#foot {
+			position: relative;
+		}
+
+	</style>
+</head>
+
+<body>
+
+
+<center><table>
+	
+	<tr>
+		<td id="Time"> </td>
+		<td id="Times"> </td>
+		<td id="Time">P</td>
+		<td id="Times">J</td>
+		<td id="Time">V</td>
+		<td id="Times">E</td>
+		<td id="Time">D</td>
+		<td id="Times">GP</td>
+		<td id="Time">GC</td>
+		<td id="Times">SG</td>
+		<td id="Time">%</td></tr>
+	<tr>
+
+		<th id="TimeA">1</th>
+		<strong><th id="Times">corinthians</th></strong>
+		<td id="P">17</td>
+		<td id="J">7</td>
+		<td id="V">5</td>
+		<td id="J">2</td>
+		<td id="V">0</td>
+		<td id="J">15</td>
+		<td id="V">8</td>
+		<td id="J">7</td>
+		<td id="V">81</td>
+		
+	</tr>
+		<tr>
+		<th id="TimeA">2</th>
+		<th id="Times">Ceara</th>
+		<td id="P">17</td>
+		<td id="J">7</td>
+		<td id="V">5</td>
+		<td id="J">2</td>
+		<td id="V">0</td>
+		<td id="J">7</td>
+		<td id="V">1</td>
+		<td id="J">6</td>
+		<td id="V">81</td>	 
+	</tr>
+		<tr>
+			<th id="TimeA">3</th>
+		<th id="Times">Fluminense</th>
+		<td id="P">15</td>
+		<td id="J">7</td>
+		<td id="V">5</td>
+		<td id="J">0</td>
+		<td id="V">2</td>
+		<td id="J">11</td>
+		<td id="V">5</td>
+		<td id="J">6</td>
+		<td id="V">71.4</td>
+	</tr>
+		<tr>
+			<th id="TimeAZZ">4</th>
+		<th id="TimesS">Santos</th>
+		<td id="PP">12</td>
+		<td id="JJ">7</td>
+		<td id="VV">3</td>
+		<td id="JJ">3</td>
+		<td id="VV">1</td>
+		<td id="JJ">15</td>
+		<td id="VV">10</td>
+		<td id="JJ">5</td>
+		<td id="VV">57.1</td>
+	</tr>
+		<tr>
+			<th id="TimeL">5</th>
+		<th id="Times">Sao Paulo</th>
+		<td id="P">11</td>
+		<td id="J">7</td>
+		<td id="V">3</td>
+		<td id="J">2</td>
+		<td id="V">2</td>
+		<td id="J">9</td>
+		<td id="V">6</td>
+		<td id="J">3</td>
+		<td id="V">52.4</td>
+	</tr>
+		<tr>
+			<th id="TimeL">6</th>
+		<th id="Times">Goias</th>
+		<td id="P">10</td>
+		<td id="J">7</td>
+		<td id="V">3</td>
+		<td id="J">1</td>
+		<td id="V">3</td>
+		<td id="J">9</td>
+		<td id="V">10</td>
+		<td id="J">-1</td>
+		<td id="V">47.6</td>
+	</tr>
+		<tr>
+			<th id="TimeL">7</th>
+		<th id="Times">Botafogo</th>
+		<td id="P">9</td>
+		<td id="J">7</td>
+		<td id="V">2</td>
+		<td id="J">3</td>
+		<td id="V">2</td>
+		<td id="J">13</td>
+		<td id="V">11</td>
+		<td id="J">2</td>
+		<td id="V">42.9</td>
+	</tr>
+		<tr>
+			<th id="TimeL">8</th>
+		<th id="Times">Flamengo</th>
+		<td id="P">9</td>
+		<td id="J">7</td>
+		<td id="V">2</td>
+		<td id="J">3</td>
+		<td id="V">2</td>
+		<td id="J">9</td>
+		<td id="V">8</td>
+		<td id="J">1</td>
+		<td id="V">42.9</td>
+	</tr>
+		<tr>
+			<th id="TimeL">9</th>
+		<th id="Times">Cruzeiro</th>
+		<td id="P">9</td>
+		<td id="J">6</td>
+		<td id="V">2</td>
+		<td id="J">3</td>
+		<td id="V">1</td>
+		<td id="J">7</td>
+		<td id="V">6</td>
+		<td id="J">1</td>
+		<td id="V">50</td>
+	</tr>
+		<tr>
+			<th id="TimeL">10</th>
+		<th id="Times">Guarani</th>
+		<td id="P">9</td>
+		<td id="J">6</td>
+		<td id="V">2</td>
+		<td id="J">3</td>
+		<td id="V">1</td>
+		<td id="J">7</td>
+		<td id="V">7</td>
+		<td id="J">0</td>
+		<td id="V">50</td>
+	</tr>
+		<tr>
+			<th id="TimeL">11</th>
+		<th id="Times">Palmeiras</th>
+		<td id="P">8</td>
+		<td id="J">6</td>
+		<td id="V">2</td>
+		<td id="J">2</td>
+		<td id="V">2</td>
+		<td id="J">5</td>
+		<td id="V">4</td>
+		<td id="J">1</td>
+		<td id="V">44.4</td>
+	</tr>
+		<tr>
+			<th id="TimeL">12</th>
+		<th id="Times">Gremio</th>
+		<td id="P">8</td>
+		<td id="J">7</td>
+		<td id="V">2</td>
+		<td id="J">2</td>
+		<td id="V">3</td>
+		<td id="J">10</td>
+		<td id="V">11</td>
+		<td id="J">-1</td>
+		<td id="V">38.1</td>
+	</tr>
+		<tr>
+			<th id="TimeC">13</th>
+		<th id="Times">Avai</th>
+		<td id="P">8</td>
+		<td id="J">7</td>
+		<td id="V">2</td>
+		<td id="J">2</td>
+		<td id="V">3</td>
+		<td id="J">10</td>
+		<td id="V">11</td>
+		<td id="J">-1</td>
+		<td id="V">38.1</td>
+	</tr>
+	<tr>
+			<th id="TimeC">14</th>
+		<th id="Times">Vitoria</th>
+		<td id="P">8</td>
+		<td id="J">7</td>
+		<td id="V">2</td>
+		<td id="J">2</td>
+		<td id="V">3</td>
+		<td id="J">7</td>
+		<td id="V">8</td>
+		<td id="J">-1</td>
+		<td id="V">38.1</td>
+	</tr>
+		<tr>
+			<th id="TimeC">15</th>
+		<th id="Times">Prudente</th>
+		<td id="P">8</td>
+		<td id="J">6</td>
+		<td id="V">2</td>
+		<td id="J">2</td>
+		<td id="V">2</td>
+		<td id="J">9</td>
+		<td id="V">11</td>
+		<td id="J">-2</td>
+		<td id="V">44.4</td>
+	</tr>
+		
+		<tr>
+			<th id="TimeCC">16</th>
+		<th id="TimesS">Atletico-PR</th>
+		<td id="PP">7</td>
+		<td id="JJ">7</td>
+		<td id="VV">2</td>
+		<td id="JJ">1</td>
+		<td id="VV">4</td>
+		<td id="JJ">10</td>
+		<td id="VV">15</td>
+		<td id="JJ">-5</td>
+		<td id="VV">33.3</td>
+	</tr>
+		<tr>
+			<th id="TimeV">17</th>
+		<th id="Times">Internacional</th>
+		<td id="P">6</td>
+		<td id="J">6</td>
+		<td id="V">2</td>
+		<td id="J">0</td>
+		<td id="V">4</td>
+		<td id="J">10</td>
+		<td id="V">12</td>
+		<td id="J">-2</td>
+		<td id="V">33.3</td>
+	</tr>
+		<tr>
+			<th id="TimeV">18</th>
+		<th id="Times">Atletico-MG</th>
+		<td id="P">6</td>
+		<td id="J">7</td>
+		<td id="V">2</td>
+		<td id="J">0</td>
+		<td id="V">5</td>
+		<td id="J">10</td>
+		<td id="V">16</td>
+		<td id="J">-6</td>
+		<td id="V">28.6</td>
+	</tr>
+		<tr>
+			<th id="TimeV">19</th>
+		<th id="Times">Vasco</th>
+		<td id="P">5</td>
+		<td id="J">7</td>
+		<td id="V">1</td>
+		<td id="J">2</td>
+		<td id="V">4</td>
+		<td id="J">5</td>
+		<td id="V">12</td>
+		<td id="J">-7</td>
+		<td id="V">23.8</td>
+	</tr>
+		<tr>
+			<th id="TimeV">20</th>
+		<th id="Times">Atletico-GO</th>
+		<td id="P">1</td>
+		<td id="J">6</td>
+		<td id="V">0</td>
+		<td id="J">1</td>
+		<td id="V">5</td>
+		<td id="J">2</td>
+		<td id="V">9</td>
+		<td id="J">-6</td>
+		<td id="V">5.6</td>
+	</tr>
+	<tfoot>
+<tr>
+	<td id="foot" colspan="11" style="font-size: 10px; font-family: arial; color: #8F8F8F; padding: 15px 17px;" ><li><div id="div1"></div>&nbsp TACA LIBERTADORES <div id="div2"></div> &nbsp &nbsp &nbsp &nbsp &nbsp   PRE-LIBERTADORES <div id="div3"></div>&nbsp  &nbsp &nbsp &nbsp &nbsp   Sul-AMERICANA  <div id="div4"></div> &nbsp &nbsp &nbsp &nbsp  &nbsp   REBAIXADOS</li><li style="font-family: Arial; font-size:10px;"> P pontos J jogos V vitorias E empates D derrotas GP gols pro GC gols contra SG saldo de gols (%) aproveitamento</li>
+</td>
+</tr>
+</tfoot>
+
+</table></center>
+
+<br>
+<br>
+
+</body
+</html>

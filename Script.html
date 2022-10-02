@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+     <meta charset="utf-8">
+	<title>javascript</title>
+
+<style type="text/css">
+	
+body {
+	margin: 0px;
+	padding: 0px;
+}	
+
+h1#T {
+	font-size: 30px;
+	color: blue;
+	font-family: "Cambria";
+	text-align: center;
+	margin-top: 20px;
+}
+
+img#D  {
+	background-color: blue;
+	position: relative;
+	margin-left: 530px;
+	margin-top: 50px;
+	
+	width: 300px; 
+}
+
+li#W{
+	font-size: 20px;
+	color: red;
+	font-family: "cambria";
+	text-align: center;
+	margin-top: 50px;
+}
+
+</style>
+
+
+
+<script type="text/javascript">
+
+
+var quebrada = false;
+
+function change(tipo) {
+
+
+if (tipo == 2) {
+	NFoto = "img/desligada.jpg"
+}
+
+
+
+if (!quebrada) {
+   document.getElementById('D').src = "img/" + tipo + ".jfif";
+		if (tipo == 3) {
+			quebrada = true;
+		}
+		
+	}
+
+}
+
+</script>
+
+
+
+</head>
+
+
+<body>
+
+<h1 id="T">TESTANDO JAVASCRIPT</h1>	
+<li id="W">WEB SIDE</li>
+
+<img src="img/desligada.jpg" id="D" height="20%" onmousemove="change('acesa')"; onclick="change('quebrada')"; onmouseout="change(2)">
+
+</body>
+
+</html>

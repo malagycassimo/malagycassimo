@@ -1,0 +1,45 @@
+* {
+
+margin: 0px;
+padding: 0px;
+
+}
+
+body{
+
+	
+}
+
+#p1, #p2, #p3 {
+
+	font-family: Cambria;
+	color: #FFFFFF;
+	font-size: 25px;
+	font-weight: bold;
+	text-indent: 100px;
+	text-decoration: none;
+
+}
+
+#div1{
+
+position: relative;
+width: 100%;
+height: 80px;
+background-color: red;
+
+}
+
+#a1 {
+
+	font-family: Arial, Sans-Serif, Cambria;
+	font-size: 14px;
+	color: red;
+}
+
+
+	
+
+
+
+

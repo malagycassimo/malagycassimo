@@ -1,0 +1,260 @@
+@charset "utf-8";
+
+
+body {
+
+	margin: 0px;
+	padding: 0px;
+	background: white;
+	height: 100%;
+	width: 100%;
+}
+
+/* logotipo da pagina=========================================================*/
+img#logotipo{
+
+	position: absolute;
+	top: 20px;
+	left: 100px;
+}
+
+/*Div inscricoes===============================================*/
+div#inscricoes{
+
+position: relative;
+margin-top: 25px;
+margin-right: 40px;
+margin-left: 500px;
+width: 710px;
+height: 85px;
+background-color: #dc5b28; 
+padding-top: 10px;
+padding-left: 35px;
+font-size: 19px;
+color: white;
+font-family: "Bookman Old Style";
+
+
+}
+
+div#inscricoes1{
+
+	position: relative;
+	margin-top: -83px;
+    margin-right: 40px;
+    margin-left: 535px;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    font-family: "Bookman Old Style";
+}
+div#inscricoes2{
+
+	position: relative;
+	margin-top: -90px;
+    margin-right: 40px;
+    margin-left: 755px;
+    font-size: 55px;
+    color: white;
+    font-weight: bold;
+    font-family: "Bookman Old Style";
+}
+
+div#saibaM p {
+
+position: relative;
+margin-top: -60px;
+margin-right: 40px;
+margin-left: 990px;
+width: 160px;
+height: 40px;
+background-color: white; 
+padding-top: 	10px;
+padding-left: 35px;
+font-size: 25px;
+color: #dc5b28;
+font-family: "Bookman Old Style";
+font-weight: bold;
+text-align: left;
+
+}
+
+/* menu =========================================================*/
+
+nav#Menu{
+display: block;
+}
+
+
+
+div#divMenu ul {
+
+position: relative;
+padding: 0px;
+margin-left: 0px;
+margin-top: 40px;
+list-style: none;
+background-color: #dc5b28;
+width: 100%;
+
+
+	
+}
+
+div#divMenu ul li{
+
+display: inline;
+list-style: none;
+
+}
+
+div#divMenu ul li a{
+
+position: relative;
+padding: 15px 5px; 
+display: inline-block;
+margin-left: 70px;
+margin-right: -30px;
+text-decoration: none;
+color: white;
+font-weight: bold;
+font-size: 15px;
+text-transform: uppercase;
+transition: .3s;
+font-family: "Bookman Old Style";
+
+}
+
+/* efeito do menu=========================================================*/
+
+
+div#divMenu ul li a:hover{
+
+color: black;
+transition: .10s;
+
+}
+
+div#divMenu ul li a:after{
+
+content: '';
+position: absolute;
+left: 50%;
+bottom: 0;
+transform: translateX(-50%) scaleX(0);
+-webkit-transform: translateX(-50%) scaleX(0);
+-webkit-transform-origin: 50% 50%;
+transform-origin: 50% 50%;
+width: 100%;
+height: 2px;
+background-color: black;
+-webkit-transition: transform 250ms;
+transition: transform 250ms;
+
+
+}
+
+div#divMenu ul li a:hover:after{
+
+
+	-webkit-transform: translateX(-50%) scaleX(1);
+	transform: translateX(-50%) scaleX(1);
+}
+
+/* slide show=========================================================*/
+
+
+slider {
+
+	margin-top: -16px;
+	margin-left: 0px;
+	display: block;
+	width: 100%;
+	height: 80%;
+	background-color: #1f1f1f;
+	overflow: hidden;
+	position: absolute;
+}
+
+slider > *{
+
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 100%;	
+	background-color: #1f1f1f;
+	animation: slide 8s infinite;
+	overflow: hidden;
+
+
+
+}
+
+
+
+slide:nth-child(1) {
+
+
+	left: 0%;
+	animation-delay: 2s;
+	background-image: url(img/1.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+
+
+slide:nth-child(2) {
+
+
+	
+	animation-delay: 6s;
+	background-image: url(img/2.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+slide:nth-child(3) {
+
+
+	
+	animation-delay: 10s;
+	background-image: url(img/3.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+slide:nth-child(4) {
+
+
+	
+	animation-delay: 14s;
+	background-image: url(img/4.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+slide p {
+
+
+	font-family: Cambria;
+	font-size:70px;
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+	margin-top: 300px;
+	color: #fff;
+}
+
+
+@keyframes slide {
+
+	0% { left: 100%; width: 100%; }
+	5% {left: 0%;}
+	25% {left: 0%;}
+	30% { left: -100%; width: 100%; }
+    30.0001% { left: 100%; width: 0%; }
+    100% { left: 100%; width: 0%; }
+}
+
+

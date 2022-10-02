@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+body {
+
+	margin: 0px;
+	padding: 0px;
+	background: white;
+	height: 100%;
+	width: 100%;
+}
+
+
+.h {
+
+	text-align: center;
+	font-family: "calibre";
+	background-color: gray;
+	margin-left: 350px;
+margin-right: 350px;
+height: 40px;
+margin-top: 40px;
+}
+
+
+
+.caixa{
+
+margin-left: 350px;
+margin-right: 350px;
+
+}
+
+.titulo {
+
+	font-size: 20px;
+	background-color: red;
+	margin-left: 0px;
+	margin-right: 0px;
+	height: 40px;
+	text-align: center;
+}
+
+
+	.texto {
+
+	font-size: 15px;
+	background-color: red;
+	margin-left: 300px;
+	margin-right: 350px;
+	height: 30px;
+	text-align: center;
+
+
+	}
