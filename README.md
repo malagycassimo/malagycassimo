@@ -9,14 +9,6 @@
   <a href="https://github.com/malagycassimo">
   <img  align = "left" height="180em" width ="47%" src="https://github-readme-stats.vercel.app/api?username=malagycassimo&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
   <img  align = "left" height="180em"  width ="47%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=malagycassimo&layout=compact&langs_count=7&theme=dark"/>
-  
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=malagycassimo&repo=github-readme-stats" />
-</a>
-<a href="https://github.com/anuraghazra/convoychat">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=malagycassimo&repo=convoychat" />
-</a>
-
 
 </div><br/>
 
