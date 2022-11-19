@@ -1,4 +1,4 @@
-## <h3> Hi! I am Malagy Cassimo </h3> 
+## <h3> Hi! I am Malagy Cassimo Malagy </h3> 
 
 
 - 🔭 Student at Eduardo Mondlane University  
