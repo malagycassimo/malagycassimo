@@ -1,8 +1,9 @@
-## <h3> Olá!  Eu sou Malagy Cassimo </h3> 
+## <h3> Hi! I am Malagy Cassimo </h3> 
 
 
-- 🔭 Estudante da UEM     
-- 🌱 Sistemas de Informação
+- 🔭 Student at Eduardo Mondlane University  
+- 🌱 Information Technology Enthusiasts 
+- ✨ Always ready to learn 😁
 
 
 <div align="center">
